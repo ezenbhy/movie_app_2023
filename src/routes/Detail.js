@@ -6,10 +6,10 @@ function Detail() {
   const location = useLocation();
   console.log(location);
 
-  const navigate = useNavigate();
-  if(location.state === undefined){
-      navigate('/'); //홈으로 이동 즉 리다이렉트 기능이다.
-  } 
+  // const navigate = useNavigate();
+  // if(location.state === undefined){
+  //     navigate('/'); //홈으로 이동 즉 리다이렉트 기능이다.
+  // } 
 
   const {genres,poster,summary,title,year} = location.state;
   return (
