@@ -7,7 +7,6 @@ function Detail() {
   console.log(location);
 
      const navigate = useNavigate();
-     navigate('/detail');
   // if(location.state === undefined){
   //     navigate('/'); //홈으로 이동 즉 리다이렉트 기능이다.
   // } 
